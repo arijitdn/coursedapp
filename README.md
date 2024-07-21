@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## CourseDapp - A Course Selling App using NextJS, TailwindCSS, Shadcn, Appwrite, Typescript and Zustand.
 
-## Getting Started
+In this website users can create their own account and then sell their courses. There are dedicated profiles for the users where they can upload their notes / course materials. After uploading, each course / material will have a specific page for them which they can share.
+People can buy these courses from their website with either crypto or other payment gateways.
+The platform will keep some of the commission and the rest of it will be credited directly to user's bank account or crypto wallet depending on his/her preference.
 
-First, run the development server:
+### Tech Stacks:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Typescript
+- NextJS
+- Tailwind CSS
+- Shadcn UI
+- Appwrite
+- Zustand
+
+### Future Stacks (Planned):
+
+- Solidity or Solana blockchain to make it decentralised
+
+### Installation
+
+Make a local copy of the Git Repository using the following command:
+
+```
+git clone https://github.com/arijitdn/coursedapp.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open the folder in your VS Code or other Text Editor / IDE of your choice.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bun is used as the primary package manager, so make sure to install bun first.
+Follow this link to download bun: https://bun.sh/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+After successfully installing bun, use the following command to download the packages:
 
-## Learn More
+```
+bun install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Though it is a personal project, contributions are much appreciated.

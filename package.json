@@ -1,5 +1,6 @@
 {
-  "name": "course-app",
+  "name": "coursedapp",
+  "description": "A course selling website for users",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "appwrite": "^15.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.8",
+    "lucide-react": "^0.412.0",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "typescript": "^5",
