@@ -36,6 +36,8 @@ After successfully installing bun, use the following command to download the pac
 bun install
 ```
 
+Then rename the `.env.example` to `.env` and fill in all of the datas.
+
 ### Contribution
 
 Though it is a personal project, contributions are much appreciated.
